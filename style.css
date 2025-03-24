@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+
+.header, .hero-section, .footer {
+  background-color: #F9FAF8;
+  color: #1F2937;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 64px 64px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.header p {
+  font-size: 24px;
+  color: #1F2937;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #006efd;
+}
+
+.hero-section, .info-section, .quote-section, .cta-section {
+  display: flex;
+  justify-content: center;
+  padding: 64px 88px;
+}
+
+.hero-text-button h1, .hero-text-button p {
+ margin-bottom: 16px;
+}
+
+.hero-section img {
+  flex: 1;
+}
+
+.hero-section h1 {
+  color: #5B5B5B;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.header, .hero-section p {
+  color: #5B5B5B;
+  font-size: 18px;
+}
+
+button, .cta-section {
+  background-color: #3882F6;
+  color: #F9FAF8;
+}
+
+button {
+  border-style: none;
+  border-radius: 5px;
+  padding: 8px 24px;
+}
+
+.info-section {
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-section h2 {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+
+.info-group {
+  display: flex;
+  gap: 48px;
+}
+
+.info-card {
+  width: 150px;
+  text-align: center;
+}
+
+.info-image {
+  width: 150px;
+  height: 150px;
+  border: medium solid #3882F6;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+
+.footer {
+  text-align: center;
+  padding: 24px 0;
+}
+
+.quote-section {
+  flex-direction: column;
+  background-color: #E5E7EB;
+}
+
+.quote-author {
+  text-align: right;
+  font-weight: 900;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 200;
+}
+
+.cta-section {
+  justify-content: space-between;
+  align-items: center;
+  margin: 64px;
+  padding: 32px 88px;
+  border-radius: 10px;
+}
+
+.cta-section h4 {
+  font-size: 24px;
+}
+
+.cta-section p {
+  color: #E5E7EB;
+}
+
+.cta-button {
+  border: medium solid #F9FAF8;
+}
